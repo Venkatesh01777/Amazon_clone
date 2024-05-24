@@ -1,0 +1,355 @@
+*{
+    text-decoration: none;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:  rgba(192, 229, 236, 0.671);
+}
+.navbar{
+    color:white;
+    width: 1519px;
+    height: 60px;
+    background-color: #02081a;
+    display:flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+img{
+    height: 50px;
+    width: 113px;
+    padding-top: 5px;
+    border:1px solid transparent;
+}
+img:hover{
+    border:1px solid white;
+    
+}
+
+.address{
+    display:flex;
+    border:1px solid transparent;
+    padding:9px 5px 0px 5px;
+}
+.address:hover{
+    border:1px solid white;
+}
+.add-first{
+    font-size: 12px;
+    font-weight: 100;
+    color:#cccccc;
+}
+.add-sec{
+    font-size: 14px;
+    font-weight:700 ;
+}
+.location{
+    margin-top:10px;
+    padding-right: 3px;
+}
+
+.searchbar{
+    display: flex;
+    border:2px solid transparent;
+    padding: 10px 5px 10px 5px;   
+}
+#opt-box{
+    width: 52px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+#opt-box:focus{
+    border:2px solid orangered;
+}
+#search-text{
+    width: 750px;
+    border:2px solid transparent;
+}
+#search-text:focus{
+    border:2px solid white;
+}
+#search-button{
+    width: 45px;
+    border:2px solid transparent;
+    background-color:rgb(249, 184, 79);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+#search-button:focus{
+    border:2px solid orangered;
+}
+.lang{
+    display: flex;
+    padding:5px 20px 5px 5px ;
+    border: 1px solid transparent;
+}
+#en-flag{
+    width: 21px;
+    height: 16px;
+    padding-top:22px;
+}
+#lang-name{
+    padding-top:25px;
+    font-size: 15px;
+}
+.lang:hover{
+    border:2px solid white;
+}
+
+.accounts{
+    padding:15px 5px 0px 5px;
+    border: 1px solid transparent;
+}
+.accounts:hover{
+    border:1px solid white;
+}
+.nav-first{
+    font-size: 14px;
+    font-weight: 100;
+}
+.nav-sec{
+    font-size: 15px;
+    font-weight: 700;
+}
+.r-o{
+    padding:15px 5px 0px 5px;
+    border: 1px solid transparent;
+}
+.r-o:hover{
+    border:1px solid white;
+}
+
+.cart{
+    border:1px solid transparent;
+    display:flex;
+    padding: 15px 5px 0px 5px;
+}
+.cart:hover{
+    border:1px solid white;
+}
+#cart-icon{
+    position:relative;
+    bottom:6px;
+}
+#count{
+    color:rgb(247, 126, 6);
+    position:relative;
+    left:6px;
+}
+#cart-part1{
+    padding-right:3px;
+}
+#cart-part2{
+    padding-top:10px;
+}
+
+.nav2{
+    width: 1519px;
+    height: 39px;
+    display: flex;
+    background-color: rgb(19, 44, 59);
+    color:white;
+    font-size: small;
+}
+.all1{
+    display: flex;
+}
+.all1{
+    padding: 10px 5px 5px 5px;
+    border: 1px solid transparent;
+}
+.all1:hover{
+    border: 1px solid white;
+}
+a{
+    color: white;
+}
+#todaydeals{
+    padding: 10px 5px 5px 5px;
+    border: 1px solid transparent;
+}
+#todaydeals:hover{
+    border: 1px solid white;
+}
+#customerservice{
+    padding: 10px 5px 5px 5px;
+    border: 1px solid transparent;
+}
+#customerservice:hover{
+    border: 1px solid white;
+}
+#registry{
+    padding: 10px 5px 5px 5px;
+    border: 1px solid transparent;
+}
+#registry:hover{
+    border: 1px solid white;
+}
+#giftcards{
+    padding: 10px 5px 5px 5px;
+    border: 1px solid transparent;
+}
+#giftcards:hover{
+    border: 1px solid white;
+}
+#sell{
+    padding: 10px 5px 5px 5px;
+    border: 1px solid transparent;
+}
+#sell:hover{
+    border: 1px solid white;
+}
+
+.hero{
+    width: 1519px;
+    height: 600px;
+    background-image: url("amazonhero.jpg");
+    background-size: cover;
+}
+.shop{
+    height: 410px;
+    width: 1519px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    flex-wrap: wrap;
+    position:absolute;
+    top: 350px; 
+}
+.space{
+    height: 80px;
+}
+.shop2{
+    height: 410px;
+    width: 1519px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    flex-wrap: wrap;  
+}
+.box{
+    background-color: white;
+    height: 405px;
+    width: 23%;
+}
+
+.box{
+    display:flex;
+    flex-wrap:wrap; 
+    justify-content: space-evenly;  
+} 
+.head1{
+    position: relative;
+    top: 10px;  
+    width:100%;
+    text-align: center;
+
+}
+.b11{
+    height: 130px;
+    width: 150px;
+}
+.b11-img{
+    height: 120px;
+    width: 150px;
+    background-size: cover;
+}
+.b12{
+    height: 130px;
+    width: 150px;
+}
+.b12-img{
+    height: 120px;
+    width: 150px;
+    background-size: cover;
+}
+.b21{
+    height: 130px;
+    width: 150px;
+}
+.b21-img{
+    height: 120px;
+    width: 150px;
+    background-size: cover;
+}
+.b22{
+    height: 130px;
+    width: 150px;
+}
+.b22-img{
+    height: 120px;
+    width: 150px;
+    background-size: cover;
+}
+.b22-name{
+    text-align: center;
+    font-size: small;
+}
+.box-more{
+    text-align:center;
+   font-size: smaller;
+   color: blue;
+} 
+
+.box_4{
+    height: 310px;
+    width: 280px;
+}
+.box4-img{
+    height: 280px;
+    width: 280px;
+    background-size: cover;
+}
+.box4-name{
+    text-align: center;
+    font-size: small;
+}
+
+.foot1{
+    height: 39px;
+    width: 1519px;
+    color:white;
+    font-size: small;
+    background-color: rgb(39, 48, 59);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot2{
+    height: 400px;
+    width: 1519px;
+    color:white;
+    background-color: rgb(25, 31, 37);
+    font-size: 15px;
+    line-height: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;    
+}
+.f2{
+    padding:40px;
+}
+
+.foot3{
+    height: 68px;
+    width: 1519px;
+    background-color: rgb(25, 31, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f3-logo{
+    height: 60px;
+    width: 110px;
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+}
+.foot4{
+    color:WHITE;
+    height: 40px;
+    width: 1519px;
+    background-color: rgb(17, 22, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
